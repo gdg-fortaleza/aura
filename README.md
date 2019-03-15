@@ -1,6 +1,6 @@
 # Aura - GDG[x]
 
-[![Build Status](https://travis-ci.org/Vrijraj/aura.svg?branch=master)](https://travis-ci.org/Vrijraj/aura)
+<!-- [![Build Status](https://travis-ci.org/Vrijraj/aura.svg?branch=master)](https://travis-ci.org/Vrijraj/aura) -->
 
 <img width="100%" src="https://raw.githubusercontent.com/GDG-Jalandhar/WebsiteData/master/promotion%20images/Aura.png">
 
@@ -29,14 +29,14 @@ The template is created by [GDG Jalandhar](https://meetup.com/GDG-Jalandhar/) te
 1. Install project dependencies: `npm install` 
 1. Find the [Meetup API Key](https://secure.meetup.com/meetup_api/key/) and paste it [here](/src/config/key.js), also replace the chapter URL from `Meetup.com/[gdg-chapter-url]`
 1. Compiles and hot-reloads for development: `npm run serve`
-1. Update [Firebase Web Setup & Basic Info](/public/index.html), [manifest.json](/public/manifest.json) and [Resources](/src/assets/data)
+1. Update `Meta Tag`, `Title Tag` and [Google Analytics Code](https://analytics.google.com/analytics/web/#/) from [Basic Info](/public/index.html), [manifest.json](/public/manifest.json) and [Resources](/src/assets/data)
 1. For the production: `npm run build` and then one dir will be created `dist`
 1. For testing: `npm run test`
 
 ## Deploy your Web App on Firebase
 
 1. Setup Environment for the Firebase deployment
-   * Install Firebase CLI: `npm i -g firebase-tools` or `yarn global add firebase-tools`
+   * Install Firebase CLI: `npm i -g firebase-tools`
 1. Create [Firebase account](https://console.firebase.google.com) and login into [Firebase CLI](https://firebase.google.com/docs/cli/): `firebase login`
 1. Open Terminal/CMD/Powershell in your dir.
 1. Now type `firebase login` command in your Terminal/CMD/Powershell. 
@@ -47,9 +47,9 @@ The template is created by [GDG Jalandhar](https://meetup.com/GDG-Jalandhar/) te
 1. Type `dist`.
 1. Some by default file will be created successfully.
 1. Run locally
-   * `firebase serve` or `npm run serve` or `yarn serve` 
+   * `firebase serve` or `npm run serve` 
 1. Build and deploy
-   * `firebase deploy` or `npm run deploy` or `yarn deploy`
+   * `firebase deploy` or `npm run deploy` 
 
 
 
@@ -60,6 +60,9 @@ The template is created by [GDG Jalandhar](https://meetup.com/GDG-Jalandhar/) te
 ### Lints and fixes files
 1. For Lints and Fixes files: `npm run lint`
 
+### Documentation
+1. The [Getting Started guide](#getting-started) is probably a good first point of call! <br>
+1. [Full documentation](/docs).
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
