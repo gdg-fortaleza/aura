@@ -15,12 +15,12 @@
 
       <v-flex mb-4>
         <h1 class="display-2 font-weight-bold mb-3">
-          Welcome to Vuetify
+          Bem vindo ao Vuetify
         </h1>
         <p class="subheading font-weight-regular">
-          For help and collaboration with other Vuetify developers,
-          <br>please join our online
-          <a href="https://community.vuetifyjs.com" target="_blank">Discord Community</a>
+          Para ajuda e colaboração com outros desenvolvedores do Vuetify,
+          <br>por favor junte-se a nossa linha
+          <a href="https://community.vuetifyjs.com" target="_blank">Comunidade Discórdia</a>
         </p>
       </v-flex>
 
@@ -28,7 +28,7 @@
         mb-5
         xs12
       >
-        <h2 class="headline font-weight-bold mb-3">What's next?</h2>
+        <h2 class="headline font-weight-bold mb-3">Qual é o próximo?</h2>
 
         <v-layout justify-center>
           <a
@@ -47,7 +47,7 @@
         xs12
         mb-5
       >
-        <h2 class="headline font-weight-bold mb-3">Important Links</h2>
+        <h2 class="headline font-weight-bold mb-3">Links Importantes</h2>
 
         <v-layout justify-center>
           <a
@@ -66,7 +66,7 @@
         xs12
         mb-5
       >
-        <h2 class="headline font-weight-bold mb-3">Ecosystem</h2>
+        <h2 class="headline font-weight-bold mb-3">Ecossistema</h2>
 
         <v-layout justify-center>
           <a

@@ -11,22 +11,22 @@ if (process.env.NODE_ENV === 'production') {
       )
     },
     registered () {
-      console.log('Service worker has been registered.')
+      console.log('O trabalhador de serviço foi registrado.')
     },
     cached () {
-      console.log('Content has been cached for offline use.')
+      console.log('O conteúdo foi armazenado em cache para uso off-line.')
     },
     updatefound () {
-      console.log('New content is downloading.')
+      console.log('Novo conteúdo está sendo baixado.')
     },
     updated () {
-      console.log('New content is available; please refresh.')
+      console.log('Novo conteúdo está disponível; por favor atualize.')
     },
     offline () {
-      console.log('No internet connection found. App is running in offline mode.')
+      console.log('Nenhuma conexão com a internet encontrada. App está sendo executado no modo offline.')
     },
     error (error) {
-      console.error('Error during service worker registration:', error)
+      console.error('Erro durante o registro do trabalhador de serviço:', error)
     }
   })
 }

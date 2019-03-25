@@ -2,13 +2,13 @@
     <v-container class="pa-0 pb-5">
         <v-layout wrap align-center justify-center row fill-height>
             <v-flex xs12 md12>
-                <p class="google-font mt-2 mb-0" style="font-size:170%;color:#37474F;" >Partners</p>
-                <p class="google-font mt-1 mb-0" style="font-size:120%">A very big thank you to all our partners for their continued partnership.</p>
-                <p class="google-font mt-0" style="font-size:120%">If you’re interested in being showcased throughout <b>{{chapterDetails.ChapterName}}</b>, contact <a style="color:#1565C0;text-decoration: none;" :href="`mailto:${chapterDetails.ChapterEmail}`">{{chapterDetails.ChapterEmail}}</a> to discuss sponsorship opportunities.</p>
+                <p class="google-font mt-2 mb-0" style="font-size:170%;color:#37474F;" >Parceiros</p>
+                <p class="google-font mt-1 mb-0" style="font-size:120%">Um muito obrigado a todos os nossos parceiros pela parceria contínua.</p>
+                <p class="google-font mt-0" style="font-size:120%">Se você tem interesse em ser exibido em todo <b>{{chapterDetails.ChapterName}}</b>, contato <a style="color:#1565C0;text-decoration: none;" :href="`mailto:${chapterDetails.ChapterEmail}`">{{chapterDetails.ChapterEmail}}</a> para discutir oportunidades de patrocínio.</p>
             </v-flex>
 
             <v-flex xs12 md12 class="mt-2">
-                <p class="google-font my-2" style="font-size:110%">General Partner</p>
+                <p class="google-font my-2" style="font-size:110%">Parceiro Geral</p>
                 
 
                 <v-layout row wrap class="transparent">
@@ -64,7 +64,7 @@
             </v-flex>
 
             <v-flex xs12 md12 class="mt-3">
-                <p class="google-font my-2" style="font-size:110%">Template Partner</p>
+                <p class="google-font my-2" style="font-size:110%">Modelo de parceiro</p>
 
                 <v-layout class="transparent" >
                     <v-flex xs12 sm10 class="elevation-0 transparent">
@@ -78,12 +78,12 @@
                                         class="white elevation-0"
                                     >
                                     <v-card flat tile class="d-flex pa-2 ma-1 elevation-1" style="border-radius:5px;border-width: 1px; border-style: solid;">
-                                        <a href="https://gdgjalandhar.com" target="_blank">
+                                        <a href="https://gdgfortaleza.com.br" target="_blank">
                                         <v-tooltip bottom>
                                             <template v-slot:activator="{ on }">
                                         <v-img
-                                            :src="require('@/assets/img/partners/gdgjalandhar.png')"
-                                            :lazy-src="require('@/assets/img/partners/gdgjalandhar.png')"
+                                            :src="require('@/assets/img/partners/gdgfortaleza.png')"
+                                            :lazy-src="require('@/assets/img/partners/gdgfortaleza.png')"
                                             aspect-ratio="3.0"
                                             class="white"
                                             v-on="on"
@@ -99,7 +99,7 @@
                                             </v-layout>
                                         </v-img>
                                         </template>
-                                        <span class="google-font">GDG Jalandhar</span>
+                                        <span class="google-font">GDG Fortaleza</span>
                                         </v-tooltip>
                                         </a>
                                     </v-card>

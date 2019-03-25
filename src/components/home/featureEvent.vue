@@ -40,14 +40,14 @@
                     <v-btn flat icon color="#616161" class="ma-0 elevation-0" slot="activator" style="text-transform: capitalize;border-radius:5px;"> 
                         <v-icon>language</v-icon>
                     </v-btn>
-                    <span>See {{eventDetails.FeatureEventName}} Website</span>
+                    <span>Ver {{eventDetails.FeatureEventName}} Website</span>
                 </v-tooltip>
 
                 <v-tooltip top slot="activator">
                     <v-btn flat icon color="#616161" class="ma-0 elevation-0" slot="activator" style="text-transform: capitalize;border-radius:5px;"> 
                         <v-icon>fab fa-meetup</v-icon>
                     </v-btn>
-                    <span>See {{eventDetails.FeatureEventName}} Meetup</span>
+                    <span>Ver {{eventDetails.FeatureEventName}} Meetup</span>
                 </v-tooltip>
             
             </v-flex> 

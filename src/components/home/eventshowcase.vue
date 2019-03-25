@@ -2,11 +2,11 @@
     <v-container class="pa-0">
         <v-layout wrap align-center justify-center row fill-height class="my-3 " >
            <v-flex xs12 md9 lg9 class="pa-2 text-xs-center">
-               <p class="google-font" style="font-size:170%">Our Events & Meetups</p>
+               <p class="google-font" style="font-size:170%">Nossos Eventos e Meetups</p>
                <p class="google-font" style="font-size:120%">
-                   At sessions that span from the technical to the visionary, let’s celebrate and discover what the technologies can enable: how product innovation, open source, and ML and AI can propel enterprises forward and solve the big problems that impact all of us.
+                   Em sessões que vão do técnico ao visionário, vamos celebrar e descobrir o que as tecnologias podem permitir: como a inovação de produtos, código aberto, ML e IA podem impulsionar as empresas e resolver os grandes problemas que afetam todos nós.
                </p>
-               <router-link to="/events" flat color="#4C4A78" class="ma-0 google-font" style="border-radius:5px;text-transform: capitalize;text-decoration:none;color:#4C4A78">See More</router-link>             
+               <router-link to="/events" flat color="#4C4A78" class="ma-0 google-font" style="border-radius:5px;text-transform: capitalize;text-decoration:none;color:#4C4A78">Ver mais</router-link>             
             </v-flex> 
         </v-layout>
 
@@ -45,7 +45,7 @@
                    
                      <v-card-actions class="mt-0">
                         <v-spacer></v-spacer>
-                        <v-btn flat color="#4C4A78" :href="item.link" target="_blank" class="mb-0 ml-0 mt-0 google-font" style="border-radius:7px;text-transform: capitalize;">See More</v-btn> 
+                        <v-btn flat color="#4C4A78" :href="item.link" target="_blank" class="mb-0 ml-0 mt-0 google-font" style="border-radius:7px;text-transform: capitalize;">Ver Mais</v-btn> 
                     </v-card-actions>
                     
                 </v-card>
