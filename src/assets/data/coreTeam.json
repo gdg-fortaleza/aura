@@ -9,48 +9,30 @@
         "website":""
     },
     {
-        "name":"Name",
-        "designation":"Front End Developer",
+        "name":"Shara Shami",
+        "designation":"Alguma Descrição",
         "twitter":"https://twitter.com/vrijrajsingh",
         "linkedin":"https://www.linkedin.com/in/vrijraj",
         "github":"https://github.com/Vrijraj",
+        "profileImage":"shara.png",
+        "website":""
+    },
+    {
+        "name":"Nathann",
+        "designation":"Alguma Descrição",
+        "twitter":"https://twitter.com",
+        "linkedin":"https://www.linkedin.com",
+        "github":"https://github.com",
         "profileImage":"",
         "website":""
     },
     {
-        "name":"Name",
-        "designation":"Front End Developer",
-        "twitter":"https://twitter.com/vrijrajsingh",
-        "linkedin":"https://www.linkedin.com/in/vrijraj",
-        "github":"https://github.com/Vrijraj",
-        "profileImage":"",
-        "website":""
-    },
-    {
-        "name":"Name",
-        "designation":"Front End Developer",
-        "twitter":"",
-        "linkedin":"https://www.linkedin.com/in/vrijraj",
-        "github":"https://github.com/Vrijraj",
-        "profileImage":"",
-        "website":""
-    },
-    {
-        "name":"Name",
-        "designation":"Front End Developer",
-        "twitter":"https://twitter.com/vrijrajsingh",
-        "linkedin":"https://www.linkedin.com/in/vrijraj",
-        "github":"https://github.com/Vrijraj",
-        "profileImage":"",
-        "website":""
-    },
-    {
-        "name":"Name",
-        "designation":"Front End Developer",
-        "twitter":"https://twitter.com/vrijrajsingh",
-        "linkedin":"https://www.linkedin.com/in/vrijraj",
-        "github":"https://github.com/Vrijraj",
-        "profileImage":"",
+        "name":"Edy",
+        "designation":"Alguma Descriçãor",
+        "twitter":"https://twitter.com",
+        "linkedin":"https://www.linkedin.com",
+        "github":"https://github.com",
+        "profileImage":"edy.jpeg",
         "website":""
     }
 ]
