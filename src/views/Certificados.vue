@@ -4,9 +4,9 @@
       <v-layout wrap align-start justify-center row fill-height class="my-0">
         <v-flex xs12 md8 class="mb-0">
           
-          <p class="google-font mb-0 mt-3" style="font-size:200%;color:#616161">Emissão de Certificados</p>
+          <center><p class="google-font mb-0 mt-3" style="font-size:200%;color:#616161">Emissão de Certificados</p></center>
           <v-divider></v-divider>
-          <p class="google-font mt-3" style="font-size:110%">Informe seu email no formulário abaixo e faça a emissão do(s) seu(s) certificado(s).</p>
+          <center><p class="google-font mt-3" style="font-size:110%">Informe seu email no formulário abaixo e faça a emissão do(s) seu(s) certificado(s).</p></center>
 
             <v-form v-model="valid">
                 <v-container>
