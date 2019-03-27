@@ -86,6 +86,11 @@
       // wtmInfo,
       partners,
       featureEvent
+    },
+
+    mounted() {
+      let path = localStorage.getItem('path');
+      console.log(path);
     }
   }
 </script>
