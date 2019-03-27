@@ -45,6 +45,12 @@ export default new Router({
       path: '/contact',
       name: 'contact',
       component: () => import('./views/Contact.vue')
+    },
+
+    {
+      path: '/certificados',
+      name: 'certificados',
+      component: () => import('./views/Certificados.vue')
     }
   ]
 })
