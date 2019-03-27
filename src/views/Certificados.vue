@@ -23,10 +23,11 @@
           ></v-text-field>
 
            <v-btn
-            color="success"
+            color="primary"
             @click="validate"
+            style="margin:0;"
             >
-            Enviar
+            Emitir Certificado
             </v-btn>
         </v-flex>
       </v-layout>
