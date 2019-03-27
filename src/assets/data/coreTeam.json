@@ -11,28 +11,28 @@
     {
         "name":"Shara Shami",
         "designation":"Desenvolvedora",
-        "twitter":"https://twitter.com/vrijrajsingh",
-        "linkedin":"https://www.linkedin.com/in/vrijraj",
-        "github":"https://github.com/Vrijraj",
+        "twitter":"https://twitter.com/shara_shami",
+        "linkedin":"https://www.linkedin.com/in/shara-shami",
+        "github":"https://github.com/sharashami/",
         "profileImage":"shara.png",
         "website":""
     },
     {
         "name":"Nathann Morais",
         "designation":"Desenvolvedor Web",
-        "twitter":"https://twitter.com",
-        "linkedin":"https://www.linkedin.com",
-        "github":"https://github.com",
+        "twitter":"https://twitter.com/nathannmorais",
+        "linkedin":"https://linkedin.com/in/nathannael",
+        "github":"https://github.com/nathannael",
         "profileImage":"nathann.jpg",
         "website":""
     },
     {
-        "name":"Edy",
-        "designation":"Desenvolvedor Back-end",
-        "twitter":"https://twitter.com",
-        "linkedin":"https://www.linkedin.com",
-        "github":"https://github.com",
+        "name":"Edigleysson Silva",
+        "designation":"Desenvolvedor Full Stack",
+        "twitter":"https://twitter.com/edigleyssonsilva",
+        "linkedin":"https://www.linkedin.com/in/edigleysson-silva-a12464132/",
+        "github":"https://github.com/geeksilva97",
         "profileImage":"edy.jpeg",
-        "website":""
+        "website":"https://codesilva.github.io"
     }
 ]
