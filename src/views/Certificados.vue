@@ -114,10 +114,30 @@ import ChapterDetails from '@/assets/data/chapterDetails.json'
         event.preventDefault();
         if (!this.$refs.form.validate()) return;
         this.requesting = true;
+
+        this.doRequest(this.email)
+          .then(response => {
+            this.requesting = false;
+            if(response.data.type === 'success') {
+              this.dialog = true;
+            }else {
+              alert(response.data.message);
+            }
+          })
+          .catch(err => {
+            alert('Houve um erro inesperado :/');
+            this.requesting = false;
+          });
+
         setTimeout(() => {
           this.requesting = false;
           this.dialog=true;
         }, 3000);
+      },
+
+
+      doRequest(email) {
+         return this.axios.get('http://escolarize.com/gdg/dist.php?email='+email);
       }
     }
   }
