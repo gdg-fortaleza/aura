@@ -76,7 +76,7 @@
   // import wtmInfo from '@/components/home/wtmInfo'
   import partners from '@/components/home/partners'
   import featureEvent from '@/components/home/featureEvent'
-  import Router from 'vue-router'
+
   
   export default {
     components: {

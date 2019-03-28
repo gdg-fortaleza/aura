@@ -8,7 +8,7 @@
           <v-divider></v-divider>
           <center><p class="google-font mt-3" style="font-size:110%">Informe seu email no formulário abaixo e faça a emissão do(s) seu(s) certificado(s).</p></center>
 
-            <v-form v-model="valid">
+            <v-form v-model="valid" ref="form" lazy-validation @submit="validate">
                 <v-container>
                     <v-layout>
                         <v-flex
@@ -17,15 +17,19 @@
                         >
           <v-text-field
             v-model="email"
-            :rules="emailRules"
+            :rules="[rules.required, rules.email]"
             label="E-mail"
             required
+            lazy-validation
+            :disabled="requesting"
           ></v-text-field>
 
            <v-btn
             color="primary"
-            @click="validate"
             style="margin:0;"
+            :loading="requesting"
+            :disabled="requesting"
+            @click="validate"
             >
             Emitir Certificado
             </v-btn>
@@ -56,6 +60,21 @@
           </v-img>
         </v-flex>
       </v-layout>
+
+
+      <!-- dialog -->
+
+      <v-dialog v-model="dialog" persistent max-width="290">
+      <v-card>
+        <v-card-title class="headline">Yeah :)</v-card-title>
+        <v-card-text>Um e-mail com informações sobre os certificados foi enviado para <strong>{{ email }}</strong>.</v-card-text>
+        <v-card-actions>
+          <v-spacer></v-spacer>
+          <v-btn color="primary darken-1" flat @click="dialog = false">Ok</v-btn>
+        </v-card-actions>
+      </v-card>
+    </v-dialog>
+
     </v-container>
 
     
@@ -74,8 +93,33 @@ import ChapterDetails from '@/assets/data/chapterDetails.json'
     },
     data() {
       return {
-        ChapterDetails: ChapterDetails
+        ChapterDetails: ChapterDetails,
+        email: '',
+        dialog: false,
+        requesting: false,
+        valid: false,
+        rules: {
+          required: value => !!value || 'Obrigatório.',
+          counter: value => value.length <= 20 || 'Max 20 characters',
+          email: value => {
+            const pattern = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
+            return pattern.test(value) || 'E-mail inválido.'
+          }
+        }
       }
     },
+
+    methods: {
+      validate(event) {
+        event.preventDefault();
+        if (!this.$refs.form.validate()) return;
+        this.requesting = true;
+        setTimeout(() => {
+          this.requesting = false;
+          this.dialog=true;
+        }, 3000);
+      }
+    }
   }
+
 </script>
