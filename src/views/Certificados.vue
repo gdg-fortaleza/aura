@@ -39,12 +39,12 @@
   </v-form>
 
 
-            <p class="google-font mb-0" style="font-size:120%">Questões? Por favor entre em contato <a href="javascript:void(0)">{{ChapterDetails.ChapterEmail}}</a>.</p>
+            <p class="google-font mb-0" style="font-size:120%">Dúvidas? Por favor entre em contato <a href="javascript:void(0)">{{ChapterDetails.ChapterEmail}}</a>.</p>
         </v-flex>
         <v-flex xs12 md2 lg2 class="pa-2">
           <v-img
-              :src="require('@/assets/img/svg/contact2.svg')"
-              :lazy-src="require('@/assets/img/svg/contact2.svg')"
+              :src="require('@/assets/img/svg/diploma.svg')"
+              :lazy-src="require('@/assets/img/svg/diploma.svg')"
               width="70%"
               style="float:right"
               >
