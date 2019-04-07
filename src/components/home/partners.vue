@@ -8,7 +8,7 @@
             </v-flex>
 
             <v-flex xs12 md12 class="mt-2">
-                <p class="google-font my-2" style="font-size:110%">Parceiro Geral</p>
+                <p class="google-font my-2" style="font-size:110%">Nossos Parceiros</p>
                 
 
                 <v-layout row wrap class="transparent">
@@ -63,7 +63,8 @@
 
             </v-flex>
 
-            <v-flex xs12 md12 class="mt-3">
+            <!-- v-flex xs12 md12 class="mt-3">
+            
                 <p class="google-font my-2" style="font-size:110%">Modelo de parceiro</p>
 
                 <v-layout class="transparent" >
@@ -109,9 +110,9 @@
                             </v-container>
                         </v-card>
                     </v-flex>
-                </v-layout>
+                </v-layout> ->
 
-            </v-flex>
+            </v-flex -->
         </v-layout>
     </v-container>
 </template>
