@@ -12,7 +12,7 @@ export default new Vuex.Store({
       { text: 'Equipe', to: '/team', icon:'group'},
       { text: 'Sobre', to: '/about', icon: 'toc'},
       { text: 'Contato', to: '/contact', icon:'person'},
-      { text: 'Certificados', to: '/certificados', icon: 'card' }
+      { text: 'Certificados', to: '/certificados', icon: 'folder_shared' }
     ]
   },
   getters:{
