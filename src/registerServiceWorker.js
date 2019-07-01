@@ -10,8 +10,12 @@ if (process.env.NODE_ENV === 'production') {
         'For more details, visit https://goo.gl/AFskqB'
       )
     },
-    registered () {
-      console.log('O trabalhador de serviço foi registrado.')
+    registered (registration) {
+      console.log('O Service worker foi registrado.')
+
+      setInterval(() => {
+        registration.update();
+      }, 1000 * 60 * 60); // hourly checks
     },
     cached () {
       console.log('O conteúdo foi armazenado em cache para uso off-line.')
@@ -19,8 +23,11 @@ if (process.env.NODE_ENV === 'production') {
     updatefound () {
       console.log('Novo conteúdo está sendo baixado.')
     },
-    updated () {
+    updated (registration) {
       console.log('Novo conteúdo está disponível; por favor atualize.')
+      document.dispatchEvent(
+        new CustomEvent('swUpdated', { detail: registration })
+      );
     },
     offline () {
       console.log('Nenhuma conexão com a internet encontrada. App está sendo executado no modo offline.')
