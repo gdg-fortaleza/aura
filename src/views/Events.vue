@@ -4,8 +4,8 @@
     <v-container fluid class="pt-3 mb-0 grey lighten-5">
       <v-layout wrap align-center justify-center row fill-height class="my-0">
         <v-flex xs12 md10 class="my-0">
-            <p class="google-font mb-0" style="font-size:200%;color:#0277bd">{{ChapterDetails.ChapterName}}'s Events</p>
-            <p class="google-font mt-0 mb-0" style="font-size:110%">Questoes? Entre em contato {{ChapterDetails.ChapterEmail}}.</p>
+            <p class="google-font mb-0" style="font-size:200%;color:#0277bd">Eventos do {{ChapterDetails.ChapterName}}</p>
+            <p class="google-font mt-0 mb-0" style="font-size:110%">Questões? Entre em contato! Email: <a href="mailto:gdgfortaleza@gmail.com" class="google-font" target="_blank" style="color: #3E4551;text-decoration: none;font-size:110%">{{ChapterDetails.ChapterEmail}}</a>.</p>
         </v-flex>
       </v-layout>
     </v-container>
@@ -27,7 +27,7 @@
     </v-container>
 
   </v-content>
-  
+
 </template>
 
 <script>

@@ -20,17 +20,17 @@
                <p class="google-font mb-0" style="font-size:170%;color:#0277bd">Próximos eventos</p>
                <p class="google-font mt-0 mb-0" style="font-size:120%">
                    Nossos eventos são abertos a novatos, desenvolvedores, gerentes e organizações interessados ​​nas tecnologias do Google ou que os usam como parte de seus projetos.
-               </p>     
-            </v-flex> 
+               </p>
+            </v-flex>
         </v-layout>
 
         <v-layout wrap align-start justify-start row fill-height class="hidden-sm-and-down my-3" :style="{'background-image':'url('+require('@/assets/img/svg/bg.svg')+')'}" style="background-position:right">
 
             <v-flex xs12 sm6 md4 lg4 v-for="n in 3" :key="`4${n}`">
-                <v-card 
+                <v-card
                     flat
                     v-if="showLoader"
-                    class="ma-1 pa-1 my-0 elevation-0" 
+                    class="ma-1 pa-1 my-0 elevation-0"
                     style="border-radius:7px;">
 
                     <v-card-title class="mb-0">
@@ -43,19 +43,19 @@
                         </div>
                     </v-card-title>
 
-                   
+
                     <v-card-actions class="mt-0">
                         <v-spacer></v-spacer>
                         <span class="animate-shimmer" style="color:#424242;width:60px;height:25px;"></span>
                     </v-card-actions>
-                    
+
                 </v-card>
             </v-flex>
 
             <v-flex xs12 sm6 md4 lg4 v-for="(item,i) in eventsData" :key="i">
-                <v-card 
+                <v-card
                     flat
-                    class="ma-1 pa-1 my-0 elevation-0" 
+                    class="ma-1 pa-1 my-0 elevation-0"
                     style="border-radius:7px;border:1px #ddd solid">
 
                     <v-card-title class="mb-0">
@@ -77,17 +77,17 @@
                         </div>
                     </v-card-title>
 
-                   
+
                     <v-card-actions class="mt-0">
                         <v-spacer></v-spacer>
-                        <v-btn flat color="#4C4A78" :href="item.link" target="_blank" class="mb-0 ml-0 mt-0 google-font" style="border-radius:7px;text-transform: capitalize;">See More</v-btn> 
+                        <v-btn flat color="#4C4A78" :href="item.link" target="_blank" class="mb-0 ml-0 mt-0 google-font" style="border-radius:7px;text-transform: capitalize;">See More</v-btn>
                     </v-card-actions>
-                    
+
                 </v-card>
             </v-flex>
 
             <v-flex xs12 v-if="notFoundUpcomingEventFlag==true">
-                <p class="google-font px-2" style="font-size:140%"><v-icon >highlight_off</v-icon> Upcoming Events Not Found!</p>
+                <p class="google-font px-2" style="font-size:140%"><v-icon >highlight_off</v-icon>  Nenhum Evento encontrado para os próximos dias!</p>
             </v-flex>
         </v-layout>
 
@@ -115,13 +115,13 @@
                                 <v-list-tile-action>
                                     <v-icon color="grey lighten-3">info</v-icon>
                                 </v-list-tile-action>
-                                
+
                             </v-list-tile>
                         </v-list>
                     </v-flex>
                 </v-layout>
             </v-flex>
-            
+
 
             <v-flex xs12>
                 <v-slide-y-reverse-transition>
@@ -147,11 +147,11 @@
                                     <v-btn icon ripple :href="item.link" target="_blank" slot="activator">
                                         <v-icon color="grey darken-1">info</v-icon>
                                     </v-btn>
-                                    
+
                                     <span>See More about {{item.name}}</span>
                                 </v-tooltip>
                             </v-list-tile-action>
-                            
+
                         </v-list-tile>
 
                     </v-list>
@@ -193,7 +193,7 @@ export default {
                 this.showLoader = false
                 this.notFoundUpcomingEventFlag = true
             }
-            
+
         }).catch(e=>{
             this.showLoader = false
             this.errorMsg = 'Issue found with '+e
@@ -227,7 +227,7 @@ export default {
 
         -webkit-animation: AnimationName 5s ease infinite;
         -moz-animation: AnimationName 5s ease infinite;
-        animation: AnimationName 5s ease infinite;   
+        animation: AnimationName 5s ease infinite;
     };
 
     @-webkit-keyframes AnimationName {
@@ -242,11 +242,9 @@ export default {
         100%{background-position:0% 52%}
     }
 
-    @keyframes AnimationName { 
+    @keyframes AnimationName {
         0%{background-position:0% 52%}
         50%{background-position:100% 49%}
         100%{background-position:0% 52%}
     }
 </style>
-
-

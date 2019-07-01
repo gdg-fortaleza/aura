@@ -27,12 +27,21 @@
         "website":""
     },
     {
-        "name":"Edigleysson Silva",
-        "designation":"Desenvolvedor Full Stack",
-        "twitter":"https://twitter.com/edigleyssonsilva",
-        "linkedin":"https://www.linkedin.com/in/edigleysson-silva-a12464132/",
-        "github":"https://github.com/geeksilva97",
-        "profileImage":"edy.jpeg",
-        "website":"https://codesilva.github.io"
+        "name":"Vaneska Sousa",
+        "designation":"Fundadora do Escolarize / Desenvolvedor Mobile",
+        "twitter":"",
+        "linkedin":"https://www.linkedin.com/in/vaneska-sousa/",
+        "github":"https://github.com/vaneskaSousa",
+        "profileImage":"vaneska.jpg",
+        "website":"http://www.escolarize.com/"
+    },
+    {
+        "name":"Júlio Alcântara",
+        "designation":"Professor",
+        "twitter":"",
+        "linkedin":"https://www.linkedin.com/in/vaneska-sousa/",
+        "github":"https://github.com/vaneskaSousa",
+        "profileImage":"avatar.png",
+        "website":"http://www.escolarize.com/"
     }
 ]

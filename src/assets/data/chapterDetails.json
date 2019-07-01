@@ -1,33 +1,44 @@
 {
     "ChapterName":"GDG Fortaleza",
-    "ChapterShortDescription":"O Google Developers Group Fortaleza é uma iniciativa para concentrar os esforços de muitos desenvolvedores em Fortaleza e arredores para aprender, compartilhar e obter produtividade usando os vários produtos do Google.",
-    "ChapterLongDec":"O Grupo de Desenvolvedores Google Fortaleza é inspirado pela Família GTUG / GDG. Começamos nossa jornada em fevereiro de 2018. Tentamos envolver estudantes de desenvolvimento, recém-formados e profissionais por meio de nossos eventos e encontros. O motivo é criar um ecossistema local de programadores e hackers em Fortaleza e arredores. A conscientização tecnológica é o principal objetivo nos primeiros anos do grupo.",
+    "ChapterShortDescription":"O GDG Fortaleza é uma iniciativa que concentra os esforços de muitos desenvolvedores na região para aprender, compartilhar e obter produtividade usando os vários produtos do Google.",
+    "ChapterLongDec":"O GDG Fortaleza tem como objetivo envolver profissionais e estudantes na área de Tecnologia da Informação por meio de nossos eventos e encontros, de modo a criar um ecossistema local de desenvolvedores cada vez mais forte e qualificado em Fortaleza e arredores.",
     "ChapterMeetupLink":"https://www.meetup.com/gdgfortaleza",
     "ChapterEmail":"gdgfortaleza@gmail.com",
     "website":"https://gdgfortaleza.com.br",
     "GDGProgramWebsite":"https://developers.google.com/programs/community/",
     "ChapterHashTags":["GDGFortaleza","WTMFortaleza","GDG","WTM"],
     "socialLinks":[
-        {
-            "name" : "Facebook",
-            "link" : "https://www.facebook.com/gdgfortaleza/",
-            "icon" : "fab fa-facebook"
-        },
-        {
-            "name" : "Instagram",
-            "link" : "https://www.instagram.com/gdgfortalezaoficial/",
-            "icon" : "fab fa-instagram"
-        },
-        {
-            "name" : "Twitter",
-            "link" : "https://twitter.com/fortalezagdg",
-            "icon" : "fab fa-twitter"
-        },
-        {
-            "name" : "Meetup",
-            "link" : "https://www.meetup.com/gdgfortaleza",
-            "icon" : "fab fa-meetup"
-        }
+      {
+        "name" : "Meetup",
+        "link" : "https://www.meetup.com/gdgfortaleza",
+        "icon" : "fab fa-meetup"
+      },
+      {
+        "name" : "Instagram",
+        "link" : "https://www.instagram.com/gdgfortalezaoficial/",
+        "icon" : "fab fa-instagram"
+      },
+      {
+        "name" : "Facebook",
+        "link" : "https://www.facebook.com/gdgfortaleza/",
+        "icon" : "fab fa-facebook"
+      },
+      {
+        "name" : "Twitter",
+        "link" : "https://twitter.com/fortalezagdg",
+        "icon" : "fab fa-twitter"
+      },
+      {
+        "name" : "Grupo no Whatsapp",
+        "link" : "https://chat.whatsapp.com/FfFk74aS4k3BzFEhYqQZWU",
+        "icon" : "fab fa-whatsapp"
+      },
+      {
+        "name" : "Grupo no Telegram",
+        "link" : "https://t.me/gdgfortaleza",
+        "icon" : "fab fa-telegram"
+      }
+
     ],
     "wtmWebsite":"https://www.womentechmakers.com/",
     "aboutGDGProgram":"Os GDGs são grupos locais de desenvolvedores que estão especificamente interessados ​​em produtos e APIs do Google. Cada grupo local é chamado de capítulo GDG e pode hospedar uma variedade de atividades técnicas para desenvolvedores - desde apenas algumas pessoas se reunindo para assistir nossos vídeos mais recentes, até grandes reuniões com demos e palestras técnicas, até hackathons."
