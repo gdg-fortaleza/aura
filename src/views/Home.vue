@@ -32,8 +32,8 @@
         </v-flex>
       </v-layout>
     </v-container>
-  
-    <v-container fluid class="py-5" style="background-color:#F9F9F9">
+
+    <!-- <v-container fluid class="py-5" style="background-color:#F9F9F9">
       <v-layout wrap align-start justify-start row fill-height>
         <v-flex xs12 md10 offset-md1 offset-lg1 >
           <p class="google-font mb-2" style="font-size:150%">Nossos eventos de destaque e Meetup</p>
@@ -42,8 +42,8 @@
           <featureEvent />
         </v-flex>
       </v-layout>
-    </v-container>
-    
+    </v-container> -->
+
      <!-- <v-container fluid >
       <v-layout wrap align-center justify-center row fill-height>
         <v-flex xs12 md10>
@@ -60,11 +60,11 @@
       </v-layout>
     </v-container>
 
-    
+
 
 
   </v-content>
-  
+
 </template>
 
 <script>
@@ -76,7 +76,7 @@
   import partners from '@/components/home/partners'
   import featureEvent from '@/components/home/featureEvent'
 
-  
+
   export default {
     components: {
       HomeStartScreen,
