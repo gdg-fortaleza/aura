@@ -6,12 +6,12 @@ Vue.use(Vuex)
 export default new Vuex.Store({
   state: {
     drawer: false,
-    items: [ 
-      { text: 'Inicio', to: '/', icon:'home'},
-      { text: 'Eventos', to: '/events', icon: 'rounded_corner'},
-      { text: 'Equipe', to: '/team', icon:'group'},
-      { text: 'Sobre', to: '/about', icon: 'toc'},
-      { text: 'Contato', to: '/contact', icon:'person'},
+    items: [
+      { text: 'Início', to: '/', icon:'home'},
+      { text: 'Eventos', to: '/eventos', icon: 'rounded_corner'},
+      { text: 'Equipe', to: '/equipe', icon:'group'},
+      { text: 'Sobre', to: '/sobre', icon: 'toc'},
+      { text: 'Contato', to: '/contato', icon:'person'},
       { text: 'Certificados', to: '/certificados', icon: 'folder_shared' }
     ]
   },

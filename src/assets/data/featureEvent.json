@@ -1,8 +1,15 @@
 {
     "FeatureEventName":"IWD'19 Fortaleza",
     "EventImage":"IWD.jpg",
-    "EventDate":"09 de março, 2019",
-    "EventTime":"9:00h as 16:30h",
+    "EventDate":{
+        "Date":"09",
+        "Month":"3",
+        "Year":"2019"
+    },
+    "EventTime":{
+        "StartTime":"09:00 AM",
+        "EndTime":"04:00 PM"
+    },
     "EventVenue":"Centro universitário Farias Brito, Fortaleza, CE",
     "EventWebsite":"https://www.meetup.com/pt-BR/gdgfortaleza/events/258044343/",
     "EventDescription":"O Dia Internacional da Mulher (IWD) é marcado no dia 8 de março de cada ano. Em diferentes regiões, o foco das celebrações varia do respeito geral e valorização das mulheres à celebração das conquistas econômicas, políticas e sociais das mulheres.",

@@ -27,22 +27,22 @@ export default new Router({
       component: Home
     },
     {
-      path: '/about',
+      path: '/sobre',
       name: 'about',
       component: () => import('./views/About.vue')
     },
     {
-      path: '/team',
+      path: '/equipe',
       name: 'team',
       component: () => import('./views/Team.vue')
     },
     {
-      path: '/events',
+      path: '/eventos',
       name: 'events',
       component: () => import('./views/Events.vue')
     },
     {
-      path: '/contact',
+      path: '/contato',
       name: 'contact',
       component: () => import('./views/Contact.vue')
     },
