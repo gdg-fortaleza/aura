@@ -3,7 +3,7 @@
         <v-layout wrap align-center justify-center row fill-height >
            <v-flex xs12 md3 lg3 class="pa-2">
                <p class="google-font" style="font-size:180%">O que nós fazemos?</p>
-               <p class="google-font" style="font-size:110%">Os Grupos de desenvolvedores do Google (GDGs) são para desenvolvedores interessados ​​na tecnologia de desenvolvedores do Google.</p>
+               <p class="google-font" style="font-size:110%">Os Grupos de desenvolvedores do Google (GDGs) são para desenvolvedores interessados em discutir e compartilhar conhecimento sobre tecnologias, sejam elas Google ou não.</p>
 
                <p class="google-font" style="font-size:110%">Sobre diferentes tecnologias do Google</p>
 
@@ -12,18 +12,18 @@
                         <template v-slot:activator="{ on }" >
                             <a :href="item.link" target="_blank" flat class="ma-0">
                                 <img :src="getImgUrl(item.image)" width="30vh" alt="" srcset="" dark v-on="on">
-                            </a> 
+                            </a>
                             &nbsp;&nbsp;&nbsp;
                         </template>
                         <span>{{item.TechName}}</span>
                     </v-tooltip>
                 </span>
-                
+
                 <br><br>
 
                 <v-btn :href="chapterDetails.GDGProgramWebsite" outline target="_blank" round color="cyan" style="text-transform: capitalize;border-radius:5px;text-transform: capitalize;" flat  class="ml-0 google-font hidden-md-and-down" dark>Ler Mais</v-btn>
 
-            </v-flex> 
+            </v-flex>
             <v-flex xs12 md9 lg9 class="">
                 <v-layout row wrap>
 
