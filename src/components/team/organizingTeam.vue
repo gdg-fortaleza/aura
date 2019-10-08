@@ -3,17 +3,17 @@
 
         <v-layout wrap align-start justify-start row fill-height class="mt-0 mb-0">
             <v-flex xs12 class="mb-3">
-                <p class="google-font" style="font-size:130%;">Membros da equipe organizadora central</p>
+                <p class="google-font" style="font-size:130%;">Membros da equipe organizadora</p>
                 <v-divider></v-divider>
             </v-flex>
             <v-flex xs12 md3 lg3 v-for="(item,i) in TeamDetails" :key="i">
                 <v-list three-line class="pa-2">
                     <template >
-                
+
                     <v-list-tile
                         :key="item.name"
                         avatar
-                        
+
                     >
                         <v-list-tile-avatar>
                             <img :src="getImgUrl(item.profileImage)">
@@ -23,7 +23,7 @@
                             <v-list-tile-title class="google-font" v-html="item.name"></v-list-tile-title>
                             <v-list-tile-sub-title><span class="google-font">{{item.designation}}</span></v-list-tile-sub-title>
                             <v-list-tile-sub-title>
-                                
+
                                 <v-btn class="mt-0 mx-0" icon v-if="(item.twitter).length>0" :href="item.twitter" target="_blank">
                                     <v-icon small style="color:#1da1f2">fab fa-twitter</v-icon>
                                 </v-btn>
@@ -45,7 +45,7 @@
                     </template>
                 </v-list>
             </v-flex>
-         
+
         </v-layout>
 
 
@@ -64,7 +64,7 @@ export default {
         }
     },
     mounted(){
-        
+
     },
     methods:{
         getImgUrl(pic) {

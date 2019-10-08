@@ -20,10 +20,10 @@
            <v-flex xs12 sm8 md10 lg10 class="pa-2 py-4 px-3" >
                <p class="google-font mb-0" style="font-size:150%">Programa Women Techmakers</p>
                <p class="google-font mt-1" style="font-size:120%">
-                  Programa WTM Fornece visibilidade, comunidade e recursos para mulheres em tecnologia. Se envolver. Inscreva-se para estar conectado a uma comunidade global e receber recursos.
+                  O Programa WTM Fornece visibilidade, comunidade e recursos para mulheres em tecnologia. Quer fazer parte dessa história? Inscreva-se para estar conectada a uma comunidade global e receber recursos.
                </p>
-               <v-btn :href="ChapterDetails.wtmWebsite" target="_blank" outline color="#4C4A78" class="ma-0 google-font" style="border-radius:7px;text-transform: capitalize;">Ver Mais Sobre o Programa WTM</v-btn>             
-            </v-flex> 
+               <v-btn :href="ChapterDetails.wtmWebsite" target="_blank" outline color="#4C4A78" class="ma-0 google-font" style="border-radius:7px;text-transform: capitalize;">Ver Mais Sobre o Programa WTM</v-btn>
+            </v-flex>
         </v-layout>
 
     </v-container>
@@ -38,7 +38,7 @@ export default {
         }
     },
     created(){
-        
+
     }
 }
 </script>

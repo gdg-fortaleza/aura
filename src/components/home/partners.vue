@@ -3,8 +3,8 @@
         <v-layout wrap align-center justify-center row fill-height>
             <v-flex xs12 md12>
                 <p class="google-font mt-2 mb-0" style="font-size:170%;color:#37474F;" >Parceiros</p>
-                <p class="google-font mt-1 mb-0" style="font-size:120%">Um muito obrigado a todos os nossos parceiros pela parceria contínua.</p>
-                <p class="google-font mt-0" style="font-size:120%">Se você tem interesse em ser exibido em todo <b>{{chapterDetails.ChapterName}}</b>, contato <a style="color:#1565C0;text-decoration: none;" :href="`mailto:${chapterDetails.ChapterEmail}`">{{chapterDetails.ChapterEmail}}</a> para discutir oportunidades de patrocínio.</p>
+                <p class="google-font mt-1 mb-0" style="font-size:120%">Agradecemos a todos os nossos parceiros pela parceria contínua.</p>
+                <p class="google-font mt-0" style="font-size:120%">Se você tem interesse em ser divulgado em todos os eventos do <b>{{chapterDetails.ChapterName}}</b>, mande seu contato para <a style="color:#1565C0;text-decoration: none;" :href="`mailto:${chapterDetails.ChapterEmail}`">{{chapterDetails.ChapterEmail}}</a> para discutir oportunidades de patrocínio.</p>
             </v-flex>
 
             <v-flex xs12 md12 class="mt-2">

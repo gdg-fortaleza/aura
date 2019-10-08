@@ -7,11 +7,11 @@
 
     <v-layout wrap align-center justify-center row fill-height class="mt-0 mb-0">
       <v-flex xs12 md12 lg12 class="pa-2 mb-0">
-        <p class="google-font mb-0" style="font-size:170%;color:#0277bd">Upcoming Events</p>
+        <p class="google-font mb-0" style="font-size:170%;color:#0277bd">Próximos eventos</p>
         <p
           class="google-font mt-0 mb-0"
           style="font-size:120%"
-        >Our events are open to newbies, developers, managers, and organizations who are interested in Google's technologies or use them as part of their projects.</p>
+        >Nossos eventos são abertos a novatos, profissionais, gerentes e organizações interessadas nas tecnologias do Google ou que os usam como parte de seus projetos.</p>
       </v-flex>
     </v-layout>
 
@@ -103,14 +103,14 @@
               target="_blank"
               class="mb-0 ml-0 mt-0 google-font"
               style="border-radius:7px;text-transform: capitalize;"
-            >See More</v-btn>
+            >Veja mais</v-btn>
           </v-card-actions>
         </v-card>
       </v-flex>
 
       <v-flex xs12 v-if="notFoundUpcomingEventFlag==true">
         <p class="google-font px-2" style="font-size:140%">
-          <v-icon>highlight_off</v-icon>Upcoming Events Not Found!
+          <v-icon>highlight_off</v-icon>&nbsp;Sem próximos eventos encontrados!
         </p>
       </v-flex>
     </v-layout>
@@ -176,7 +176,7 @@
                     <v-icon color="grey darken-1">info</v-icon>
                   </v-btn>
 
-                  <span>See More about {{item.name}}</span>
+                  <span>Veja mais about {{item.name}}</span>
                 </v-tooltip>
               </v-list-tile-action>
             </v-list-tile>
@@ -186,7 +186,7 @@
 
       <v-flex xs12 v-if="notFoundUpcomingEventFlag==true">
         <p class="google-font px-2" style="font-size:140%">
-          <v-icon>highlight_off</v-icon>Upcoming Events Not Found!
+          <v-icon>highlight_off</v-icon>&nbsp;Sem próximos eventos encontrados!
         </p>
       </v-flex>
     </v-layout>

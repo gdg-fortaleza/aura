@@ -20,10 +20,10 @@
                <p class="google-font mb-0" style="font-size:170%;color:#0277bd">Diretório de eventos passados</p>
                <p class="google-font mt-0 mb-0" style="font-size:110%;color:#616161 ">
                    Os eventos são listados em ordem cronológica inversa por data.
-               </p>     
-               <p class="google-font" style="font-size:110%;color:#616161 ">Aqui estão os últimos 10 encontros. Para saber mais sobre os últimos encontros<a :href="chapterDetails.ChapterMeetupLink" target="_blank" style="text-decoration:none;color:#0277bd">Clique aqui</a></p>
+               </p>
+               <p class="google-font" style="font-size:110%;color:#616161 ">Aqui estão os últimos 10 encontros. Para saber mais sobre os últimos encontros<a :href="chapterDetails.ChapterMeetupLink" target="_blank" style="text-decoration:none;color:#0277bd">, clique aqui!</a></p>
 
-            </v-flex> 
+            </v-flex>
         </v-layout>
 
         <v-layout wrap row >
@@ -49,13 +49,13 @@
                                 <v-list-tile-action>
                                     <v-icon color="grey lighten-3">info</v-icon>
                                 </v-list-tile-action>
-                                
+
                             </v-list-tile>
                         </v-list>
                     </v-flex>
                 </v-layout>
             </v-flex>
-           
+
 
             <v-flex xs12 sm6 md4 lg4 v-for="(item,i) in eventsData" :key="i">
                 <v-slide-y-reverse-transition>
@@ -80,13 +80,13 @@
                                     <v-btn icon ripple :href="item.link" target="_blank" slot="activator">
                                         <v-icon color="grey darken-1">info</v-icon>
                                     </v-btn>
-                                    
+
                                     <span>See More about {{item.name}}</span>
                                 </v-tooltip>
                             </v-list-tile-action>
-                            
+
                         </v-list-tile>
-                        
+
 
                     </v-list>
                 </v-slide-y-reverse-transition>
@@ -96,7 +96,7 @@
                 <p class="google-font px-2" style="font-size:140%"><v-icon >highlight_off</v-icon> Past Events Not Found!</p>
             </v-flex>
 
-            
+
         </v-layout>
 
     </v-container>
@@ -127,7 +127,7 @@ export default {
                 this.notFoundPastEventFlag = true
                 this.showLoader = false
             }
-            
+
         }).catch(e=>{
             this.showLoader = false
             this.errorMsg = 'Issue found with '+e
@@ -160,6 +160,5 @@ export default {
 </script>
 
 <style scoped>
-    
-</style>
 
+</style>
