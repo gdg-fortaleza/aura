@@ -8,7 +8,7 @@
           <!-- <v-divider></v-divider> -->
           <p class="google-font mt-3" style="font-size:110%">Nossos eventos são abertos a novatos, desenvolvedores, gerentes e organizações interessados ​​nas tecnologias do Google ou que os usam como parte de seus projetos.</p>
 
-          <p class="google-font mb-0" style="font-size:130%">Social Media:</p>
+          <p class="google-font mb-0" style="font-size:130%">Redes Sociais:</p>
           <p class="google-font mt-0 ml-0" style="font-size:130%" >
             <span v-for="(item,i) in ChapterDetails.socialLinks" :key="i">
               <v-tooltip bottom>
