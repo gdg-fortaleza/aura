@@ -1,11 +1,29 @@
 [
   {
-      "name":"Vaneska Sousa",
-      "designation":"Fundadora do Escolarize",
+      "name":"Denis Oliveira",
+      "designation":"",
       "twitter":"",
-      "linkedin":"https://www.linkedin.com/in/vaneska-sousa/",
-      "github":"https://github.com/vaneskaSousa",
-      "profileImage":"vaneska.jpg",
-      "website":"http://www.escolarize.com/"
+      "linkedin":"",
+      "github":"",
+      "profileImage":"avatar.png",
+      "website":""
+  },
+  {
+      "name":"Kaio Angelino",
+      "designation":"",
+      "twitter":"",
+      "linkedin":"",
+      "github":"",
+      "profileImage":"avatar.png",
+      "website":""
+  },
+  {
+      "name": "Wellington Costa",
+      "designation":"",
+      "twitter":"",
+      "linkedin":"",
+      "github":"",
+      "profileImage":"avatar.png",
+      "website":""
   }
 ]

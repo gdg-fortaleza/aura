@@ -9,15 +9,6 @@
         "website":""
     },
     {
-        "name":"Shara Shami",
-        "designation":"Desenvolvedora",
-        "twitter":"https://twitter.com/shara_shami",
-        "linkedin":"https://www.linkedin.com/in/shara-shami",
-        "github":"https://github.com/sharashami/",
-        "profileImage":"shara.jpg",
-        "website":""
-    },
-    {
         "name":"Nathann Morais",
         "designation":"Desenvolvedor Web",
         "twitter":"https://twitter.com/nathannmorais",
@@ -25,5 +16,14 @@
         "github":"https://github.com/nathannael",
         "profileImage":"nathann.jpeg",
         "website":""
+    },
+    {
+        "name": "Vaneska Sousa",
+        "designation": "Fundadora do Escolarize",
+        "twitter": "",
+        "linkedin": "https://www.linkedin.com/in/vaneska-sousa/",
+        "github": "https://github.com/vaneskaSousa",
+        "profileImage": "vaneska.jpg",
+        "website": "http://www.escolarize.com/"
     }
 ]

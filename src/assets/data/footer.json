@@ -57,6 +57,10 @@
         {
             "LinkName" : "Termos & Serviços",
             "Link" : "https://docs.google.com/document/d/14g3fv9NItiB8Hd-YGYyVYd2N4LRxe6Bx3syWse_wsiA/edit?usp=sharing"
+        },
+        {
+            "LinkName": "Template: GDG Jalandhar",
+            "Link": "https://gdgjalandhar.com"
         }
     ]
 }

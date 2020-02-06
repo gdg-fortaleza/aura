@@ -3,5 +3,15 @@
         "name": "Centro Universitário Farias Brito",
         "link": "https://fbuni.edu.br/",
         "img":"fbuni.png"
+    },
+    {
+        "name": "FB Ideias",
+        "link": "https://fbuni.edu.br/",
+        "img":"fbideias.png"
+    },
+    {
+        "name": "IFCE",
+        "link": "https://ifce.edu.br/",
+        "img":"ifce.png"
     }
 ]
